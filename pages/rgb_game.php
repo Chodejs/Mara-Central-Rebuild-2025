@@ -56,12 +56,12 @@
             </p>
             <h2 class="text-3xl font-bold text-white mb-4 mt-8">Learn to Build It</h2>
             <p class="text-gray-400 mb-6">Ready to peek behind the curtain? You can view the complete source code for this game, or follow our detailed lesson to build it step-by-step.</p>
-            <div class="flex flex-col md:flex-row gap-4">
-                <a href="index.php?p=rgb_game_code" class="flex-1 text-center bg-gray-700 hover:bg-gray-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                    View Full Code
-                </a>
-                <a href="#" class="flex-1 text-center bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+            <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
+                <a href="index.php?p=rgb_game_lesson" class="w-full sm:w-auto flex-grow text-center bg-teal-500 hover:bg-teal-600 text-white font-bold px-8 py-4 rounded-lg transition-transform transform hover:scale-105 shadow-lg">
                     Start Interactive Lesson
+                </a>
+                <a href="index.php?p=rgb_game_code" class="w-full sm:w-auto text-center text-teal-400 hover:text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                    View Full Code
                 </a>
             </div>
         </div>
